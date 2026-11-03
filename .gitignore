@@ -1,0 +1,49 @@
+# Local credentials and private deployment inputs
+.env
+.env.*
+!.env.example
+*.rendered.*
+*.pem
+*.key
+*.p12
+*.pfx
+.docker/
+.npmrc
+.pypirc
+.netrc
+auth.json
+secrets/
+private/
+
+# Downloaded upstream sources, build contexts, image archives and reports
+.build/
+.cache/
+build/
+dist/
+out/
+reports/
+artifacts/
+*.oci
+*.tar
+*.tar.gz
+*.tgz
+*.log
+
+# Dependencies and Python tooling (keep committed dependency locks)
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Editor and workstation state
+.idea/
+.vscode/
+.DS_Store
+*~
